@@ -1,0 +1,4 @@
+ARG IMAGE_NAME="YOU_NEED_TO_PASS_THIS"
+FROM ${IMAGE_NAME}
+
+CMD ["node", "/app/web.js"]
